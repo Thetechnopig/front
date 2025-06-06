@@ -14,7 +14,8 @@
     "format": "prettier --ignore-unknown --write .",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clone-issues": "node src/scripts/cloneIssues.js"
   },
   "lint-staged": {
     "**/*": [

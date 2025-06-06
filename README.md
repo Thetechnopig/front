@@ -107,6 +107,11 @@ npm run start:server-dev
   npm test
   ```
 
+- **Clone upstream issues**
+  ```bash
+  npm run clone-issues
+  ```
+
 ## 🏗️ Project Structure
 
 - `/src/client` - Frontend game client
